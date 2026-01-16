@@ -19,7 +19,10 @@ dependencies = [
 
 [tool.hatch.version]
 source = "vcs"
-raw-options = { root = ".." }
+raw-options = { root = "../", fallback_version="10.0.0" }
 
 [tool.hatch.build.hooks.vcs]
-version-file = "src/project1/_version.py"
+version-file = "project1/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["project1"]
