@@ -2,13 +2,6 @@ version: 2
 updates:
   # Enable version updates for project2 dependencies
   - package-ecosystem: "uv"
-    directory: "/project2"
+    directories: ["/project2", "/project1"]
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "05:00"
-      timezone: "US/Pacific"
-    groups:
-      server-dependencies:
-        patterns:
-          - "*"
+      interval: "daily"
