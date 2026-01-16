@@ -11,7 +11,7 @@ name = "project2"
 version = "0.1.0"
 description = "A sample project using uv with path dependency"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.13"
 dependencies = [
     "project1",
     "numpy>=1.24.0",
