@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # Enable version updates for project2 dependencies
+  - package-ecosystem: "pip"
+    directory: "/project2"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "project2"
