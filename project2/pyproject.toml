@@ -14,7 +14,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "project1",
-    "numpy==1.24.4",  # Deliberately old version
+    "numpy==2.4.1",  # Deliberately old version
     "pandas==2.0.3",  # Deliberately old version
     "flask==3.0.3",   # Deliberately old version
     "sqlalchemy>=2.0.0",
