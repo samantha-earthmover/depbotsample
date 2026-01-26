@@ -18,7 +18,7 @@ dependencies = [
     "pandas==2.0.3",  # Deliberately old version
     "flask==3.0.3",   # Deliberately old version
     "sqlalchemy>=2.0.0",
-    "httpx==0.25.2",  # Deliberately old version
+    "httpx==0.28.1",  # Deliberately old version
     "typer>=0.9.0",
     "jinja2>=3.1.0",
 ]
